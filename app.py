@@ -4,6 +4,7 @@ import json
 import random
 from flask import Flask
 from threading import Thread
+import os
 import datetime
 import time
 import asyncio
@@ -485,4 +486,4 @@ async def end_command(interaction: discord.Interaction):
     
 keep_alive()
 
-client.run('')
+client.run(os.getenv("TOKEN"))
