@@ -485,4 +485,4 @@ async def end_command(interaction: discord.Interaction):
     
 keep_alive()
 
-client.run('MTA2MTU0NjAwOTc1MjI1MjQzNg.GucROH.251c2tys_S_hW1DOFjU5tjZ18VzAmIWtFDg1nk')
+client.run('')
