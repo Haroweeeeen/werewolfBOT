@@ -1,0 +1,3 @@
+Flask
+Gunicorn
+discord.py==2.0.0
